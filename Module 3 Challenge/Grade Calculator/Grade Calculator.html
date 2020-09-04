@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Grade Calculator</title>
+
+  </head>
+
+  <body>
+
+    <script>
+      var mark = prompt("Insert your Mark?");
+      if (mark <= 100 && mark >= 70) {
+        alert("Your Grade is A");
+        document.write("<h1>Your Grade is: A</h1>");
+
+      }
+
+        else if (mark <= 69 && mark >= 50) {
+        alert("Your Grade is C");
+        document.write("<h1>Your Grade is: C</h1>");
+
+      }
+
+        else if (mark <= 49 && mark >= 0) {
+        alert("Your Grade is F");
+        document.write("<h1>Your Grade is F</h1>");
+
+      }
+
+        else {
+        document.write("<h1> Out of Range </h1>");
+      }
+
+    </script>
+  </body>
+</html>

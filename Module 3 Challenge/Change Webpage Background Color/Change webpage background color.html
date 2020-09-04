@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Change a Webpage Background Colour </title>
+
+    <style>
+      h1 {
+        color: Green;
+        font-family: cursive;
+      }
+
+      h2 {
+        color: Grey;
+        font-family: fieldset;
+        font-style: italic;
+      }
+
+      body {
+        text-align: center;
+      }
+      button {
+        padding: 12px;
+        background-color: green;
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>To change page background color</h1>
+
+    <h2> Click button below</h2>
+
+    <button onclick="button()">Click Here</button>
+
+    <script>
+
+      function changeColor(color) {
+        document.body.style.background = color;
+      }
+
+      function button() {
+        changeColor("blue");
+
+      }
+    </script>
+  </body>
+</html>
